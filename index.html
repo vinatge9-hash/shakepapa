@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:300,400,500,600,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body style="font-family: 'Roboto', sans-serif;" class="bg-gray-100 font-['Roboto']">
+    <header class="bg-brown-800 p-6">
+        <h1 class="text-white text-3xl">Welcome to Our Coffee Shop</h1>
+        <nav class="mt-4">
+            <ul class="flex space-x-4 text-white">
+                <li><a href="#" onclick="window.parent.handlePreviewNavigation(\'index.html\'); return false;" class="hover:underline">Home</a></li>
+                <li><a href="#" onclick="window.parent.handlePreviewNavigation(\'about.html\'); return false;" class="hover:underline">About Us</a></li>
+                <li><a href="#" onclick="window.parent.handlePreviewNavigation(\'contact.html\'); return false;" class="hover:underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="max-w-none p-6">
+        <section class="my-8">
+            <h2 class="text-2xl font-bold mb-4">Our Coffee Collection</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="border rounded-lg p-4 shadow-lg bg-white">
+                    <img src="https://images.unsplash.com/photo-1649015005461-9905cb2a183d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxfHxhJTIwY3VwJTIwb2YlMjBlc3ByZXNzbyUyMHdpdGglMjBiZWFuc3xlbnwwfDB8fHwxNzU1ODgxODY3fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Coffee 1" class="w-full rounded-lg mb-2">
+                    <h3 class="text-xl font-semibold">Espresso</h3>
+                    <p class="text-gray-700">Rich and bold espresso brewed from the finest beans.</p>
+                </div>
+                <div class="border rounded-lg p-4 shadow-lg bg-white">
+                    <img src="https://images.pexels.com/photos/3310817/pexels-photo-3310817.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Coffee 2" class="w-full rounded-lg mb-2">
+                    <h3 class="text-xl font-semibold">Latte</h3>
+                    <p class="text-gray-700">Smooth and creamy latte made with fresh milk.</p>
+                </div>
+                <div class="border rounded-lg p-4 shadow-lg bg-white">
+                    <img src="https://pixabay.com/get/g5b535b3c416042e6cf4a99c6397a50bc9327fab9cbdb9842837ba6e0b111191df6f4130247febbac4a34cb3ee7fe269be1a64154b1f6125f9fd552e611a69002_640.jpg" alt="Coffee 3" class="w-full rounded-lg mb-2">
+                    <h3 class="text-xl font-semibold">Cold Brew</h3>
+                    <p class="text-gray-700">Refreshing cold brew made overnight for a smooth taste.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-brown-800 p-6">
+        <p class="text-white text-center">&copy; 2023 Coffee Shop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
